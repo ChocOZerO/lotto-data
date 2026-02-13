@@ -140,7 +140,7 @@ def write_json(path: Path, data: dict) -> None:
 
 
 def write_outputs(draws: list[dict]) -> None:
-    write_json(Path("lotto.json"), dict(draws[-1]))
+    write_json(Path("lotto.json"), draws)
 
 
 def main() -> None:
